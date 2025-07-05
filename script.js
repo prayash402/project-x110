@@ -1,11 +1,11 @@
 
 function startGame() {
   document.getElementById("main-menu").style.display = "none";
-  alert("Game Started! (Placeholder)");
+  alert("Game Started! (Full game logic goes here)");
 }
 let progress = 0;
 const interval = setInterval(() => {
-  progress += 10;
+  progress += 20;
   document.getElementById("progress").textContent = progress + "%";
   if (progress >= 100) {
     clearInterval(interval);
